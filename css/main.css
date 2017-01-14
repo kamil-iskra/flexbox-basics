@@ -1,19 +1,47 @@
+* {
+    box-sizing: border-box;
+}
 .wrapper {
     width: 100%;
     margin: 0 auto;
-    background: #eee;
+    background: #eed;
+}
+
+.description {
+    background: #555;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px;
+}
+.description p {
+    padding: 0;
+    margin: 0;
 }
 
 .flex-container {
+    background: #aaa;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+}
 
+.flex-container-2 {
+    background: #aaa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
 .box {
-    height: 200px;
-    min-width: 200px;
+    height: 50px;
+    min-width: 50px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
 }
 
 .first {
@@ -34,4 +62,8 @@
 
 .fifth {
     background: #645;
+}
+
+.sixth {
+    background: #848;
 }
