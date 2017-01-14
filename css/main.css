@@ -1,0 +1,37 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background: #eee;
+}
+
+.flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+.box {
+    height: 200px;
+    min-width: 200px;
+}
+
+.first {
+    background: #000;
+}
+
+.second {
+    background: #861;
+}
+
+.third {
+    background: #893;
+}
+
+.fourth {
+    background: #047;
+}
+
+.fifth {
+    background: #645;
+}
