@@ -1,4 +1,4 @@
-* {
+*, *:before, *:after  {
     box-sizing: border-box;
 }
 .wrapper {
@@ -132,4 +132,36 @@
     -ms-flex-positive: 1;
     flex-grow: 1;
 }
+
+.flex-container-5 {
+    background: #aaa;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container-5 .box {
+    height: 50px;
+    /*min-width: 200px;*/
+    -ms-flex-preferred-size: 200px;
+    flex-basis: 200px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.flex-container-6 {
+    background: #aaa;
+    display: flex;
+    height: 150px;
+}
+
+.flex-container-6 .box {
+    background: #893;
+    color: #fff;
+    flex-basis: 200px;
+    margin: auto;
+}
+
 
